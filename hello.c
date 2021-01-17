@@ -2,7 +2,8 @@
 
 int main(void)
 {
-    printf("hello world\n");
+    char * s = "hello world!";
+    printf("%s\n", s);
 
     return 0;
 }
