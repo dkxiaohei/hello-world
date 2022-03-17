@@ -8,3 +8,4 @@ I love programming. Hope to have fun here.
 - hello.rs: the equivalent in Rust
 - hello.go: the equivalent in Go
 - hello.py: the equivalent in Python
+- Hello.java: the equivalent in Java
