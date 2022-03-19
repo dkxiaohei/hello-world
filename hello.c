@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    char * s = "hello world!";
+    char * s = "Hello world!";
     printf("%s\n", s);
 
     return 0;
