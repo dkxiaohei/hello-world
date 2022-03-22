@@ -11,3 +11,4 @@ I love programming. Hope to have fun here.
 - Hello.java: the equivalent in Java
 - hello.perl: the equivalent in Perl
 - hello.rb: the equivalent in Ruby
+- hello.sh: the equivalent in Bash
