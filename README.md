@@ -12,3 +12,4 @@ I love programming. Hope to have fun here.
 - hello.perl: the equivalent in Perl
 - hello.rb: the equivalent in Ruby
 - hello.sh: the equivalent in Bash
+- hello.lua: the equivalent in Lua
