@@ -1,6 +1,6 @@
 # hello-world
 
-Print 'Hello world!' in various languages
+Print 'Hello world!' in various languages.
 
 - hello.c: the typical C program to print "Hello world!"
 - hello.cpp: the equivalent in CPP
