@@ -21,7 +21,7 @@ void guess(int n)
     printf("Guess a number betweed 1 and %d\n", n);
 
     while (attempt++ < 10) {
-        printf("Please type your guess: ");
+        printf("Please type in your guess: ");
         scanf("%d", &guess);
 
         if (guess < number)
@@ -29,7 +29,7 @@ void guess(int n)
         else if (guess > number)
             printf("Lower number please\n");
         else {
-            printf("Bingo! You guessd the number in %d attempts\n", attempt);
+            printf("Bingo! You guessed the number in %d attempts\n", attempt);
             return;
         }
     }
