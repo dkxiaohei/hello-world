@@ -20,7 +20,8 @@ void guess(int n)
 
     printf("Guess a number betweed 1 and %d\n", n);
 
-    while (attempt++ < 10) {
+    while (attempt < 10) {
+        attempt++;
         printf("Please type in your guess: ");
         scanf("%d", &guess);
 
@@ -34,5 +35,5 @@ void guess(int n)
         }
     }
 
-    printf("Oops! You lose\n");
+    printf("Oops! You lose after %d attempts\n", attempt);
 }
