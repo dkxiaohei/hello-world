@@ -1,8 +1,8 @@
 # hello-world
 
-Print 'Hello world!' in various languages.
+Print "Hello, world!" in various languages.
 
-- hello.c: the typical C program to print "Hello world!"
+- hello.c: the typical C program to print "Hello, world!"
 - hello.cpp: the equivalent in CPP
 - hello.rs: the equivalent in Rust
 - hello.go: the equivalent in Go
@@ -12,3 +12,4 @@ Print 'Hello world!' in various languages.
 - hello.rb: the equivalent in Ruby
 - hello.sh: the equivalent in Bash
 - Hello.java: the equivalent in Java
+- hello.dart: the equivalent in Dart

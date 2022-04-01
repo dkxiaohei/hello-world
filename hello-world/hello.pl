@@ -1,3 +1,3 @@
 #!/usr/bin/env perl
 
-print "Hello world!\n";
+print "Hello, world!\n";
