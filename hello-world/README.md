@@ -13,3 +13,4 @@ Print "Hello, world!" in various languages.
 - hello.sh: the equivalent in Bash
 - Hello.java: the equivalent in Java
 - hello.dart: the equivalent in Dart
+- hello.js: the equivalent in JavaScript
