@@ -8,3 +8,4 @@ The game will end after 10 attempts and if the player failed to guess the number
 - guess.go: the number guessing game in Go
 - guess.cpp: the number guessing game in CPP
 - guess.dart: the number guessing game in Dart
+- Guess.java: the number guessing game in Java
