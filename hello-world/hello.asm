@@ -1,7 +1,7 @@
 format ELF64
 public _start
 
-msg db "hello, world", 0
+msg db "Hello, world!", 10, 0
 len = $-msg
 
 _start:
