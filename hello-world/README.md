@@ -14,3 +14,4 @@ Print "Hello, world!" in various languages.
 - Hello.java: the equivalent in Java
 - hello.dart: the equivalent in Dart
 - hello.js: the equivalent in JavaScript
+- hello.asm: the equivalent in Assembler (FASM)
