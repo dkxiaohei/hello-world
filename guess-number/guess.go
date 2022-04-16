@@ -19,7 +19,7 @@ func guess(n int) {
     number := rand.Intn(n) + 1
     attempt := 0
 
-    fmt.Printf("Guess a number betweed 1 and %d\n", n)
+    fmt.Printf("Guess a number between 1 and %d\n", n)
 
     scanner := bufio.NewScanner(os.Stdin)
     for attempt < 10 {
