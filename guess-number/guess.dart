@@ -18,8 +18,11 @@ void guess(int n) {
     while (attempt < 10) {
         attempt++;
 
-        print('Please type in your guess');
-        guess = int.parse(stdin.readLineSync().toString());
+        stdout.write('Please type in your guess: ');
+        guess = int.tryParse(stdin.readLineSync().toString());
+        if (guess == null) {
+            continue;
+        }
 
         if (guess.compareTo(number) < 0) {
             print('Higher number please');
