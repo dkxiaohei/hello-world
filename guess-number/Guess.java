@@ -19,7 +19,11 @@ public class Guess {
         while (attempt < 10) {
             attempt++;
             System.out.printf("Please type in your guess: ");
-            guess = scanner.nextInt();
+            try {
+                guess = Integer.parseInt(scanner.nextLine());
+            } catch (Exception e) {
+                continue;
+            }
 
             if (guess < number)
                 System.out.printf("Higher number please\n");
