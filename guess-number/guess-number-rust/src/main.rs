@@ -1,6 +1,7 @@
 use rand::Rng;
-use std::io;
 use std::cmp::Ordering;
+use std::io;
+use std::io::Write;
 
 fn main() {
     let n = 100;
@@ -17,8 +18,10 @@ fn guess(n: u32, m: u32) {
     while attempt < m {
         attempt += 1;
 
+        print!("Please type in your guess: ");
+        io::stdout().flush().unwrap();
+
         let mut guess = String::new();
-        println!("Please type in your guess");
         io::stdin().read_line(&mut guess)
             .expect("Failed to read line");
 
