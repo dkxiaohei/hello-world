@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 
+#define LINE_MAX 80
+
 void guess(int);
 
 int main(void)
@@ -15,6 +17,7 @@ void guess(int n)
 {
     srand(time(NULL));
     int number = rand() % n;
+    char guessStr[LINE_MAX];
     int guess;
     int attempt = 0;
 
@@ -23,7 +26,9 @@ void guess(int n)
     while (attempt < 10) {
         attempt++;
         printf("Please type in your guess: ");
-        scanf("%d", &guess);
+        if ((fgets(guessStr, LINE_MAX, stdin) == NULL) || guessStr[0] == '\n')
+            continue;
+        guess = atoi(guessStr);
 
         if (guess < number)
             printf("Higher number please\n");
