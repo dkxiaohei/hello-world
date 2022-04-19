@@ -1,8 +1,7 @@
 #include <iostream>
+#include <string>
 #include <cstdlib>
 #include <ctime>
-
-using namespace std;
 
 void guess(int);
 
@@ -17,25 +16,31 @@ void guess(int n)
 {
     srand(time(nullptr));
     int number = rand() % n;
+    std::string guessStr;
     int guess;
     int attempt = 0;
 
-    cout << "Guess a number betweed 1 and " << n << endl;
+    std::cout << "Guess a number betweed 1 and " << n << std::endl;
 
     while (attempt < 10) {
         attempt++;
-        cout << "Please type in your guess: ";
-        cin >> guess;
+        std::cout << "Please type in your guess: ";
+        getline(std::cin, guessStr);
+        try {
+            guess = std::stoi(guessStr);
+        } catch (std::invalid_argument const& e) {
+            continue;
+        }
 
         if (guess < number)
-            cout << "Higher number please" << endl;
+            std::cout << "Higher number please" << std::endl;
         else if (guess > number)
-            cout << "Lower number please" << endl;
+            std::cout << "Lower number please" << std::endl;
         else {
-            cout << "Bingo! You guessed the number in " << attempt << " attempts" << endl;
+            std::cout << "Bingo! You guessed the number in " << attempt << " attempts" << std::endl;
             return;
         }
     }
 
-    cout << "Oops! You lose after " << attempt << " attempts" << endl;
+    std::cout << "Oops! You lose after " << attempt << " attempts" << std::endl;
 }
