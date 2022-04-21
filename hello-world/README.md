@@ -16,3 +16,4 @@ Print "Hello, world!" in various languages.
 - hello.js: the equivalent in JavaScript
 - hello.asm: the equivalent in Assembler (FASM)
 - hello.swift: the equivalent in Swift
+- Hello.scala: the equivalent in Scala
