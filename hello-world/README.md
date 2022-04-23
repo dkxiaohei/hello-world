@@ -18,3 +18,4 @@ Print "Hello, world!" in various languages.
 - hello.swift: the equivalent in Swift
 - Hello.scala: the equivalent in Scala
 - hello.io: the equivalent in Io
+- hello.lisp: the equivalent in Common Lisp
