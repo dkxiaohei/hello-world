@@ -20,3 +20,4 @@ Print "Hello, world!" in various languages.
 - hello.io: the equivalent in Io
 - hello.lisp: the equivalent in Common Lisp
 - hello.kt: the equivalent in Kotlin
+- hello.hs: the equivalent in Haskell
