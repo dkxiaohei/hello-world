@@ -11,3 +11,4 @@ The game will end after 10 attempts and if the player failed to guess the number
 - Guess.java: the number guessing game in Java
 - guess.swift: the number guessing game in Swift
 - guess.py: the number guessing game in Python3
+- guess.rb: the number guessing game in Ruby
