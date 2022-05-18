@@ -22,3 +22,4 @@ Print "Hello, world!" in various languages.
 - hello.kt: the equivalent in Kotlin
 - hello.hs: the equivalent in Haskell
 - hello.groovy: the equivalent in Groovy
+- hello.m: the equivalent in Objective-C
