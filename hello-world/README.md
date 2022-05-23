@@ -24,3 +24,4 @@ Print "Hello, world!" in various languages.
 - hello.groovy: the equivalent in Groovy
 - hello.m: the equivalent in Objective-C
 - hello.erl: the equivalent in Erlang
+- hello.clj: the equivalent in Clojure
