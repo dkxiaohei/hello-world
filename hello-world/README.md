@@ -25,3 +25,4 @@ Print "Hello, world!" in various languages.
 - hello.m: the equivalent in Objective-C
 - hello.erl: the equivalent in Erlang
 - hello.clj: the equivalent in Clojure
+- hello.bat: the equivalent in Batch
