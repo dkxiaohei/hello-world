@@ -26,3 +26,4 @@ Print "Hello, world!" in various languages.
 - hello.erl: the equivalent in Erlang
 - hello.clj: the equivalent in Clojure
 - hello.bat: the equivalent in Batch
+- hello.cs: the equivalent in CSharp
