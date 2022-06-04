@@ -32,3 +32,4 @@ Print "Hello, world!" in various languages.
 - hello.f90: the equivalent in Fortran
 - hello.jl: the equivalent in Julia
 - hello.bas: the equivalent in Basic
+- hello.d: the equivalent in D
