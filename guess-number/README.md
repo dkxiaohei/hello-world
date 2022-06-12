@@ -13,3 +13,4 @@ The game will end after 10 attempts and if the player failed to guess the number
 - guess.py: the number guessing game in Python3
 - guess.rb: the number guessing game in Ruby
 - guess.kt: the number guessing game in Kotlin
+- guess.js: the number guessing game in JavaScript
